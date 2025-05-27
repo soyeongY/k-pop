@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-pop Culture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Noto Sans KR', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 min-h-screen">
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-blue-800 font-bold text-xl">World Pop Culture</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                        K-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="대한민국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="american-pop.html" class="text-red-600 hover:text-red-800 font-medium flex items-center">
+                        American Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="미국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="british-pop.html" class="text-purple-600 hover:text-purple-800 font-medium flex items-center">
+                        British Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/330px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="영국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="j-pop.html" class="text-pink-600 hover:text-pink-800 font-medium flex items-center">
+                        J-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="일본 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="latin-pop.html" class="text-green-600 hover:text-green-800 font-medium flex items-center">
+                        Latin Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="브라질 국기" class="w-4 h-4 ml-1">
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-gray-800">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="backdrop-blur-lg bg-white/30 rounded-3xl shadow-2xl p-8 border border-white/50">
+            <div class="flex justify-center mb-8">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="일본 국기" class="w-32 h-32 object-contain">
+            </div>
+            <h1 class="text-4xl font-bold text-center text-blue-800 mb-8 tracking-tight drop-shadow-lg">
+                J-pop의 세계에 오신 것을 환영합니다!
+            </h1>
+
+            <!-- J-pop 소개 -->
+            <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50 mb-8">
+                <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">J-pop이란?</h2>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    J-pop은 일본의 대중음악을 의미하며, 1990년대부터 시작되어 현재까지 일본 음악 시장을 주도하고 있는 음악 장르입니다. J-pop의 특징은 다음과 같습니다:
+                </p>
+                <ul class="list-disc list-inside text-gray-800 leading-relaxed space-y-2">
+                    <li>다양한 음악 장르의 융합</li>
+                    <li>애니메이션과의 밀접한 연관</li>
+                    <li>독특한 일본식 음악 스타일</li>
+                    <li>아이돌 문화의 발전</li>
+                    <li>글로벌 팬덤 문화</li>
+                </ul>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">YOASOBI</h2>
+                    <p class="text-gray-800 leading-relaxed">일본의 대표적인 J-pop 듀오로, '夜に駆ける', '群青' 등의 히트곡으로 유명합니다. 최근 'THE BOOK 2'로 전 세계적인 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">LiSA</h2>
+                    <p class="text-gray-800 leading-relaxed">일본의 대표적인 가수로, '紅蓮華', '炎' 등의 곡으로 전 세계적인 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">ONE OK ROCK</h2>
+                    <p class="text-gray-800 leading-relaxed">일본의 대표적인 록 밴드로, 'The Beginning', 'We Are' 등의 히트곡을 발표하며 글로벌 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">최신 J-pop 뉴스</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">YOASOBI, 'THE BOOK 2' 성공적 발매</h3>
+                            <p class="text-gray-700">YOASOBI의 'THE BOOK 2'가 전 세계적으로 큰 성공을 거두며 새로운 기록을 세우고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">LiSA, 새로운 앨범 발매 예정</h3>
+                            <p class="text-gray-700">LiSA가 새로운 앨범을 준비 중이며, 전 세계 팬들의 기대를 모으고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">ONE OK ROCK, 글로벌 투어 성공</h3>
+                            <p class="text-gray-700">ONE OK ROCK의 글로벌 투어가 성공적으로 진행되며 전 세계 팬들의 열렬한 반응을 얻고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Official HIGE DANdism, 'Subtitle' 발매</h3>
+                            <p class="text-gray-700">Official HIGE DANdism이 새 앨범 'Subtitle'을 발매하며 일본 오리콘 차트 1위를 기록했습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">King Gnu, '一途' 발매</h3>
+                            <p class="text-gray-700">King Gnu가 새 앨범 '一途'를 발매하며 일본 음악 시장에서 큰 인기를 얻고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- J-pop 역사적 순간 -->
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">J-pop의 역사적 순간</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">1999년 - Hikaru Utada의 'First Love' 발매</h3>
+                            <p class="text-gray-700">Hikaru Utada의 'First Love' 앨범이 일본에서 765만 장 이상의 판매량을 기록하며 J-pop의 새로운 시대를 열었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2005년 - AKB48의 데뷔</h3>
+                            <p class="text-gray-700">AKB48의 데뷔로 일본 아이돌 문화의 새로운 장이 열렸습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2016년 - BABYMETAL의 글로벌 진출</h3>
+                            <p class="text-gray-700">BABYMETAL이 메탈과 J-pop을 결합한 독특한 스타일로 글로벌 시장에서 큰 성공을 거두었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2020년 - YOASOBI의 '夜に駆ける'</h3>
+                            <p class="text-gray-700">YOASOBI의 '夜に駆ける'가 유튜브에서 1억 뷰를 돌파하며 J-pop의 새로운 시대를 열었습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

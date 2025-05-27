@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Pop Culture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Noto Sans KR', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 min-h-screen">
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-blue-800 font-bold text-xl">World Pop Culture</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                        K-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="대한민국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="american-pop.html" class="text-red-600 hover:text-red-800 font-medium flex items-center">
+                        American Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="미국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="british-pop.html" class="text-purple-600 hover:text-purple-800 font-medium flex items-center">
+                        British Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/330px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="영국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="j-pop.html" class="text-pink-600 hover:text-pink-800 font-medium flex items-center">
+                        J-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="일본 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="latin-pop.html" class="text-green-600 hover:text-green-800 font-medium flex items-center">
+                        Latin Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="브라질 국기" class="w-4 h-4 ml-1">
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-gray-800">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="backdrop-blur-lg bg-white/30 rounded-3xl shadow-2xl p-8 border border-white/50">
+            <div class="flex justify-center mb-8">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="미국 국기" class="w-32 h-32 object-contain">
+            </div>
+            <h1 class="text-4xl font-bold text-center text-blue-800 mb-8 tracking-tight drop-shadow-lg">
+                American Pop의 세계에 오신 것을 환영합니다!
+            </h1>
+
+            <!-- American Pop 소개 -->
+            <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50 mb-8">
+                <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">American Pop이란?</h2>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    American Pop은 미국의 대중음악을 의미하며, 1950년대부터 시작되어 현재까지 전 세계 음악 시장을 주도하고 있는 음악 장르입니다. American Pop의 특징은 다음과 같습니다:
+                </p>
+                <ul class="list-disc list-inside text-gray-800 leading-relaxed space-y-2">
+                    <li>다양한 음악 장르의 융합과 혁신</li>
+                    <li>글로벌 음악 시장의 주도적 역할</li>
+                    <li>뮤직 비디오와 공연의 화려한 스펙타클</li>
+                    <li>소셜 미디어를 통한 팬과의 소통</li>
+                    <li>세계적인 음악 시상식의 중심</li>
+                </ul>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">Taylor Swift</h2>
+                    <p class="text-gray-800 leading-relaxed">미국의 대표적인 팝 스타로, 'Shake It Off', 'Blank Space' 등의 히트곡으로 유명합니다. 최근 'The Eras Tour'로 전 세계적인 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">Beyoncé</h2>
+                    <p class="text-gray-800 leading-relaxed">R&B와 팝의 여왕으로 불리는 Beyoncé는 'Crazy in Love', 'Single Ladies' 등의 곡으로 전 세계적인 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">The Weeknd</h2>
+                    <p class="text-gray-800 leading-relaxed">R&B와 팝을 결합한 독특한 스타일로 'Blinding Lights', 'Starboy' 등의 히트곡을 발표하며 글로벌 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">최신 American Pop 뉴스</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Taylor Swift, 'The Eras Tour' 성공적 진행</h3>
+                            <p class="text-gray-700">Taylor Swift의 'The Eras Tour'가 전 세계적으로 큰 성공을 거두며 새로운 기록을 세우고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Beyoncé, 새로운 앨범 발매 예정</h3>
+                            <p class="text-gray-700">Beyoncé가 새로운 앨범을 준비 중이며, 전 세계 팬들의 기대를 모으고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">The Weeknd, 글로벌 투어 성공</h3>
+                            <p class="text-gray-700">The Weeknd의 글로벌 투어가 성공적으로 진행되며 전 세계 팬들의 열렬한 반응을 얻고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Billie Eilish, 'What Was I Made For?' 발매</h3>
+                            <p class="text-gray-700">Billie Eilish가 'Barbie' 영화 OST 'What Was I Made For?'를 발매하며 전 세계 차트에서 좋은 성적을 거두고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Drake, 'For All The Dogs' 발매</h3>
+                            <p class="text-gray-700">Drake가 새 앨범 'For All The Dogs'를 발매하며 빌보드 200 차트 1위를 기록했습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- American Pop 역사적 순간 -->
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">American Pop의 역사적 순간</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">1983년 - Michael Jackson의 'Thriller' 발매</h3>
+                            <p class="text-gray-700">Michael Jackson의 'Thriller' 앨범이 발매되어 전 세계적으로 1억 장 이상의 판매량을 기록하며 팝 음악의 새로운 장을 열었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2001년 - Britney Spears의 'I'm a Slave 4 U'</h3>
+                            <p class="text-gray-700">Britney Spears의 'I'm a Slave 4 U' 뮤직비디오가 발표되어 팝 음악의 새로운 시대를 열었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2016년 - Beyoncé의 'Lemonade' 발매</h3>
+                            <p class="text-gray-700">Beyoncé의 'Lemonade' 앨범이 발매되어 음악과 영상의 결합을 통해 새로운 예술적 성취를 이루었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2020년 - The Weeknd의 'Blinding Lights'</h3>
+                            <p class="text-gray-700">The Weeknd의 'Blinding Lights'가 빌보드 핫 100 차트에서 90주 연속 상위권을 기록하며 새로운 기록을 세웠습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

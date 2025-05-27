@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>British Pop Culture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Noto Sans KR', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 min-h-screen">
+    <!-- 네비게이션 바 -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-blue-800 font-bold text-xl">World Pop Culture</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                        K-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="대한민국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="american-pop.html" class="text-red-600 hover:text-red-800 font-medium flex items-center">
+                        American Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="미국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="british-pop.html" class="text-purple-600 hover:text-purple-800 font-medium flex items-center">
+                        British Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/330px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="영국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="j-pop.html" class="text-pink-600 hover:text-pink-800 font-medium flex items-center">
+                        J-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="일본 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="latin-pop.html" class="text-green-600 hover:text-green-800 font-medium flex items-center">
+                        Latin Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="브라질 국기" class="w-4 h-4 ml-1">
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-gray-800">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 콘텐츠 -->
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="backdrop-blur-lg bg-white/30 rounded-3xl shadow-2xl p-8 border border-white/50">
+            <div class="flex justify-center mb-8">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/330px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="영국 국기" class="w-32 h-32 object-contain">
+            </div>
+            <h1 class="text-4xl font-bold text-center text-blue-800 mb-8 tracking-tight drop-shadow-lg">
+                British Pop의 세계에 오신 것을 환영합니다!
+            </h1>
+
+            <!-- British Pop 소개 -->
+            <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50 mb-8">
+                <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">British Pop이란?</h2>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    British Pop은 영국의 대중음악을 의미하며, 1960년대 비틀즈의 등장으로 시작되어 현재까지 전 세계 음악 시장에 큰 영향을 미치고 있는 음악 장르입니다. British Pop의 특징은 다음과 같습니다:
+                </p>
+                <ul class="list-disc list-inside text-gray-800 leading-relaxed space-y-2">
+                    <li>독특한 영국식 음악 스타일과 감성</li>
+                    <li>실험적이고 혁신적인 음악 시도</li>
+                    <li>세련된 가사와 멜로디</li>
+                    <li>다양한 음악 장르와의 융합</li>
+                    <li>글로벌 음악 시장에서의 영향력</li>
+                </ul>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">Ed Sheeran</h2>
+                    <p class="text-gray-800 leading-relaxed">영국의 대표적인 싱어송라이터로, 'Shape of You', 'Perfect' 등의 히트곡으로 유명합니다. 최근 'Mathematics Tour'로 전 세계적인 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">Adele</h2>
+                    <p class="text-gray-800 leading-relaxed">영국의 대표적인 가수로, 'Hello', 'Someone Like You' 등의 곡으로 전 세계적인 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">Coldplay</h2>
+                    <p class="text-gray-800 leading-relaxed">영국의 대표적인 록 밴드로, 'Yellow', 'Viva La Vida' 등의 히트곡을 발표하며 글로벌 인기를 얻고 있습니다.</p>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">최신 British Pop 뉴스</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Ed Sheeran, 'Mathematics Tour' 성공적 진행</h3>
+                            <p class="text-gray-700">Ed Sheeran의 'Mathematics Tour'가 전 세계적으로 큰 성공을 거두며 새로운 기록을 세우고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Adele, 새로운 앨범 발매 예정</h3>
+                            <p class="text-gray-700">Adele가 새로운 앨범을 준비 중이며, 전 세계 팬들의 기대를 모으고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Coldplay, 글로벌 투어 성공</h3>
+                            <p class="text-gray-700">Coldplay의 글로벌 투어가 성공적으로 진행되며 전 세계 팬들의 열렬한 반응을 얻고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Harry Styles, 'As It Was' 빌보드 1위</h3>
+                            <p class="text-gray-700">Harry Styles의 'As It Was'가 빌보드 핫 100 차트에서 15주 연속 1위를 기록했습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">Dua Lipa, 'Dance The Night' 발매</h3>
+                            <p class="text-gray-700">Dua Lipa가 'Barbie' 영화 OST 'Dance The Night'를 발매하며 전 세계 차트에서 좋은 성적을 거두고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- British Pop 역사적 순간 -->
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">British Pop의 역사적 순간</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">1964년 - The Beatles의 미국 진출</h3>
+                            <p class="text-gray-700">The Beatles가 미국 에드 설리번 쇼에 출연하며 'British Invasion'의 시작을 알렸습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">1985년 - Live Aid 콘서트</h3>
+                            <p class="text-gray-700">Queen의 'Bohemian Rhapsody' 공연이 Live Aid 콘서트에서 역사적인 순간을 만들어냈습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2011년 - Adele의 '21' 발매</h3>
+                            <p class="text-gray-700">Adele의 '21' 앨범이 전 세계적으로 3,100만 장 이상의 판매량을 기록하며 새로운 기록을 세웠습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2017년 - Ed Sheeran의 'Shape of You'</h3>
+                            <p class="text-gray-700">Ed Sheeran의 'Shape of You'가 빌보드 핫 100 차트에서 12주 연속 1위를 기록했습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

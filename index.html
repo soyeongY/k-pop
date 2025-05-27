@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Pop Culture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Noto Sans KR', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 min-h-screen">
+    <nav class="bg-white/80 backdrop-blur-md shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-blue-800 font-bold text-xl">World Pop Culture</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                        K-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="대한민국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="american-pop.html" class="text-red-600 hover:text-red-800 font-medium flex items-center">
+                        American Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="미국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="british-pop.html" class="text-purple-600 hover:text-purple-800 font-medium flex items-center">
+                        British Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/330px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="영국 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="j-pop.html" class="text-pink-600 hover:text-pink-800 font-medium flex items-center">
+                        J-pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="일본 국기" class="w-4 h-4 ml-1">
+                    </a>
+                    <a href="latin-pop.html" class="text-green-600 hover:text-green-800 font-medium flex items-center">
+                        Latin Pop
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg" alt="브라질 국기" class="w-4 h-4 ml-1">
+                    </a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-gray-800">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="backdrop-blur-lg bg-white/30 rounded-3xl shadow-2xl p-8 border border-white/50">
+            <div class="flex justify-center mb-8">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg" alt="대한민국 국기" class="w-32 h-32 object-contain">
+            </div>
+            <h1 class="text-4xl font-bold text-center text-blue-800 mb-8 tracking-tight drop-shadow-lg">
+                K-pop의 세계에 오신 것을 환영합니다!
+            </h1>
+            
+            <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50 mb-8">
+                <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">K-pop이란?</h2>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    K-pop은 한국의 대중음악을 의미하며, 1990년대 초반부터 시작되어 현재는 전 세계적으로 큰 인기를 얻고 있는 음악 장르입니다. K-pop의 특징은 다음과 같습니다:
+                </p>
+                <ul class="list-disc list-inside text-gray-800 leading-relaxed space-y-2">
+                    <li>정교한 안무와 퍼포먼스</li>
+                    <li>다양한 음악 장르의 융합</li>
+                    <li>시각적으로 완성도 높은 뮤직비디오</li>
+                    <li>체계적인 연습생 시스템</li>
+                    <li>글로벌 팬덤 문화</li>
+                </ul>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">BTS (방탄소년단)</h2>
+                            <p class="text-gray-800 leading-relaxed">세계적인 K-pop 그룹으로, 글로벌 음악 시장에서 큰 성공을 거두었습니다. 'Dynamite', 'Butter' 등의 히트곡으로 유명합니다.</p>
+                        </div>
+                        <img src="bts.jpg" alt="BTS" class="w-32 h-32 object-cover rounded-lg ml-4">
+                    </div>
+                    <div class="mt-4">
+                        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/XsX3ATc3FbA" title="BTS - 'Butter'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">BLACKPINK (블랙핑크)</h2>
+                            <p class="text-gray-800 leading-relaxed">YG 엔터테인먼트 소속의 4인조 걸그룹으로, 'How You Like That', 'Pink Venom' 등의 곡으로 전 세계적인 인기를 얻고 있습니다.</p>
+                        </div>
+                        <img src="blackpink.jpeg" alt="BLACKPINK" class="w-32 h-32 object-cover rounded-lg ml-4">
+                    </div>
+                    <div class="mt-4">
+                        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Amq-qlqbjYA" title="BLACKPINK - 'Pink Venom'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <div class="flex items-center">
+                        <div class="flex-1">
+                            <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">TWICE (트와이스)</h2>
+                            <p class="text-gray-800 leading-relaxed">JYP 엔터테인먼트 소속의 9인조 걸그룹으로, 2015년 'SIXTEEN' 프로그램을 통해 데뷔했습니다. 나연, 정연, 모모, 사나, 지효, 미나, 다현, 채영, 쯔위로 구성되어 있으며, 'TT', 'Fancy', 'Scientist', 'Talk that Talk' 등의 히트곡으로 전 세계적인 인기를 얻고 있습니다. 특히 일본 시장에서도 큰 성공을 거두며 글로벌 걸그룹으로 자리매김했습니다. 트와이스는 상큼하고 발랄한 컨셉으로 시작하여 점차 성숙한 음악 스타일로 발전해왔으며, 현재는 다양한 음악 장르를 시도하며 음악적 성장을 이어가고 있습니다.</p>
+                        </div>
+                        <img src="twice.jpg" alt="TWICE" class="w-32 h-32 object-cover rounded-lg ml-4">
+                    </div>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">최신 K-pop 뉴스</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">BTS 지민, 솔로 앨범 'FACE' 발매</h3>
+                            <p class="text-gray-700">BTS의 지민이 첫 솔로 앨범 'FACE'를 발매하며 전 세계 차트 1위를 기록했습니다. 타이틀곡 'Like Crazy'는 빌보드 핫 100 차트에서 1위를 차지했습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">BLACKPINK, 월드투어 성공적 마무리</h3>
+                            <p class="text-gray-700">BLACKPINK가 'BORN PINK' 월드투어를 성공적으로 마무리하며 전 세계 150만 관객을 동원했습니다. 이는 걸그룹 최다 관객 동원 기록입니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">NewJeans, 글로벌 인기 급상승</h3>
+                            <p class="text-gray-700">NewJeans의 'OMG'와 'Ditto'가 전 세계 음원 차트에서 상위권을 기록하며 글로벌 인기를 얻고 있습니다. 특히 미국 빌보드 차트에서도 좋은 성적을 거두고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">IVE, 'I AM'으로 차트 1위</h3>
+                            <p class="text-gray-700">IVE가 새 앨범 'I've IVE'의 타이틀곡 'I AM'으로 국내 주요 음원 차트 1위를 기록하며 인기를 이어가고 있습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">LE SSERAFIM, 일본 진출 성공</h3>
+                            <p class="text-gray-700">LE SSERAFIM이 일본 데뷔 앨범 'FEARLESS'로 오리콘 차트 1위를 기록하며 일본 시장에서도 큰 성공을 거두고 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group backdrop-blur-md bg-white/40 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border border-white/50">
+                    <h2 class="text-2xl font-semibold text-blue-900 mb-3 border-b-2 border-blue-200/50 pb-2">K-pop의 역사적 순간</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2012년 - PSY의 '강남스타일' 글로벌 히트</h3>
+                            <p class="text-gray-700">PSY의 '강남스타일'이 유튜브에서 10억 뷰를 돌파하며 K-pop의 글로벌 진출의 신호탄이 되었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2017년 - BTS의 빌보드 차트 진입</h3>
+                            <p class="text-gray-700">BTS가 'DNA'로 빌보드 핫 100 차트에 진입하며 K-pop의 글로벌 시장 진출의 새로운 장을 열었습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2020년 - BTS의 'Dynamite' 빌보드 1위</h3>
+                            <p class="text-gray-700">BTS가 'Dynamite'로 빌보드 핫 100 차트 1위를 차지하며 K-pop의 글로벌 영향력을 증명했습니다.</p>
+                        </div>
+                        <div class="bg-white/60 rounded-xl p-4 shadow-sm border border-white/30">
+                            <h3 class="text-lg font-semibold text-blue-800 mb-2">2022년 - BLACKPINK의 월드투어 성공</h3>
+                            <p class="text-gray-700">BLACKPINK가 'BORN PINK' 월드투어로 전 세계 150만 관객을 동원하며 걸그룹 최다 관객 동원 기록을 세웠습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
